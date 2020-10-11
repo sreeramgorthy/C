@@ -9,7 +9,7 @@ void main()
 	while (pin != 1520)
 	{
 		printf("PLEASE ENTER YOUR PIN NUMBER:");
-		scanf("%d", &pin);
+		scanf("%d",&pin);
 		if (pin != 1520)
 		printf("PLEASE ENTER CORRECT PIN NUMBER\n");
 	}
